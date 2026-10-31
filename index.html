@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fakhir Jabbar | MERN Stack Developer</title>
+    <meta name="description" content="Fakhir Jabbar is a MERN Stack and Full Stack Web Developer from Rawalpindi, Pakistan, building responsive websites and full-stack web applications with React, Node.js, Express and MongoDB." />
+    <meta property="og:title" content="Fakhir Jabbar | MERN Stack Developer" />
+    <meta property="og:description" content="Responsive websites and full-stack web applications with React, Node.js, Express and MongoDB." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#2B2D31" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) { document.documentElement.setAttribute("data-theme", "light"); }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
